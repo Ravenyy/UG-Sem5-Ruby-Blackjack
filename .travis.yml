@@ -15,7 +15,7 @@ rvm:
 
 script:
   - bundle exec rake spec
-  #- bundle exec rake minitest
+  - bundle exec rake minitest
 
 after_script:            
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

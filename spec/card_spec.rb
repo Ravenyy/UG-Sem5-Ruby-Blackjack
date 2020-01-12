@@ -28,7 +28,7 @@ RSpec.describe Card do
         expect(@card.suit).to eq('Diamonds')
     end
 
-    it "'rank' method returnds '8'" do
+    it "'rank' method returns '8'" do
         expect(@card.rank).to eq('8')
     end
 
