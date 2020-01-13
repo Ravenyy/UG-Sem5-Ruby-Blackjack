@@ -6,8 +6,7 @@ task default: %w[test spec
 
 Rake::TestTask.new(:minitest) do |task|
  task.pattern = 'test/*_test.rb'
- test.verbose = false
- test.warning = false
+
 end
  
 RSpec::Core::RakeTask.new(:spec) do |t|
