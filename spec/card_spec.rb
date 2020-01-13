@@ -7,7 +7,7 @@ RSpec.describe Card do
 
         @card = Card.new(suit, rank)
     end
-
+    
     it "responds to suit" do
         expect(@card).to respond_to(:suit)
     end
